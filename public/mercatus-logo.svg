@@ -1,0 +1,8 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 左右箭头符号 -->
+  <path d="M14 8L24 20L14 32" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 8L26 20L36 32" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Mercatus文字 -->
+  <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#2563EB">Mercatus</text>
+</svg> 

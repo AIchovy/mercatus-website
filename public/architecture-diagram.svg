@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" fill="#f8fafc" rx="10" ry="10" />
+  
+  <!-- Kubernetes Cluster Border -->
+  <rect x="20" y="50" width="760" height="430" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" rx="10" ry="10" />
+  <text x="40" y="40" font-family="Arial" font-size="18" font-weight="bold" fill="#334155">Kubernetes Cluster</text>
+  
+  <!-- Main Service -->
+  <rect x="60" y="100" width="250" height="120" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" rx="8" ry="8" />
+  <text x="185" y="130" font-family="Arial" font-size="16" font-weight="bold" fill="#1e40af" text-anchor="middle">mercatus-main-service</text>
+  <text x="185" y="160" font-family="Arial" font-size="14" fill="#1e40af" text-anchor="middle">Core Orchestration</text>
+  <text x="185" y="180" font-family="Arial" font-size="14" fill="#1e40af" text-anchor="middle">Task Distribution</text>
+  
+  <!-- Agent Pods -->
+  <g id="agent1">
+    <rect x="60" y="280" width="200" height="180" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8" ry="8" />
+    <text x="160" y="300" font-family="Arial" font-size="14" font-weight="bold" fill="#1e40af" text-anchor="middle">mercatus-agent</text>
+    
+    <!-- Ubuntu -->
+    <rect x="80" y="320" width="160" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="160" y="340" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Ubuntu OS</text>
+    
+    <!-- Browser -->
+    <rect x="80" y="360" width="75" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="117" y="380" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Browser</text>
+    
+    <!-- LLM Agent -->
+    <rect x="165" y="360" width="75" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="202" y="380" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">LLM Agent</text>
+    
+    <!-- Workflow -->
+    <rect x="80" y="400" width="160" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="160" y="420" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">User Workflow Execution</text>
+  </g>
+  
+  <g id="agent2">
+    <rect x="300" y="280" width="200" height="180" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8" ry="8" />
+    <text x="400" y="300" font-family="Arial" font-size="14" font-weight="bold" fill="#1e40af" text-anchor="middle">mercatus-agent</text>
+    
+    <!-- Ubuntu -->
+    <rect x="320" y="320" width="160" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="400" y="340" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Ubuntu OS</text>
+    
+    <!-- Browser -->
+    <rect x="320" y="360" width="75" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="357" y="380" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Browser</text>
+    
+    <!-- LLM Agent -->
+    <rect x="405" y="360" width="75" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="442" y="380" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">LLM Agent</text>
+    
+    <!-- Workflow -->
+    <rect x="320" y="400" width="160" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="400" y="420" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">User Workflow Execution</text>
+  </g>
+  
+  <g id="agent3">
+    <rect x="540" y="280" width="200" height="180" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8" ry="8" />
+    <text x="640" y="300" font-family="Arial" font-size="14" font-weight="bold" fill="#1e40af" text-anchor="middle">mercatus-agent</text>
+    
+    <!-- Ubuntu -->
+    <rect x="560" y="320" width="160" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="640" y="340" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Ubuntu OS</text>
+    
+    <!-- Browser -->
+    <rect x="560" y="360" width="75" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="597" y="380" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">Browser</text>
+    
+    <!-- LLM Agent -->
+    <rect x="645" y="360" width="75" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="682" y="380" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">LLM Agent</text>
+    
+    <!-- Workflow -->
+    <rect x="560" y="400" width="160" height="30" fill="#e7f5ff" stroke="#3b82f6" stroke-width="1" rx="4" ry="4" />
+    <text x="640" y="420" font-family="Arial" font-size="12" fill="#1e40af" text-anchor="middle">User Workflow Execution</text>
+  </g>
+  
+  <!-- Main service to Agent Connections -->
+  <line x1="185" y1="220" x2="160" y2="270" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,3" />
+  <line x1="185" y1="220" x2="400" y2="270" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,3" />
+  <line x1="185" y1="220" x2="640" y2="270" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,3" />
+  
+  <!-- Title -->
+  <text x="400" y="470" font-family="Arial" font-size="12" fill="#64748b" text-anchor="middle">Mercatus AI Agent Architecture</text>
+</svg> 
