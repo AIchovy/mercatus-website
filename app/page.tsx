@@ -416,7 +416,7 @@ export default function Home() {
               <div className="flex items-center mb-3">
                 <div className="text-white font-bold text-2xl">Mercatus</div>
               </div>
-              <p className="text-gray-400">© 2025 Mercatus. All rights reserved.</p>
+              <p className="text-gray-400">© 2025 OPENROPIC PTE.LTD. All rights reserved.</p>
             </div>
           </div>
         </div>
